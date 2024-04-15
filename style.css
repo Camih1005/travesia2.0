@@ -17,13 +17,13 @@ body{
 }
 /* NAV BAR */
 
-.navhamburguer{
+
+
+.navhamburguer,.Hamburguesa,.claseHAmburguerCont{
     display: none;
 }
 
-.Hamburguesa{
-    display: none;
-}
+
 
 header{
     position: fixed;
@@ -870,6 +870,12 @@ width: 90%;
 .viewmore{
     bottom: 50px;
 }
-
+.claseHAmburguerCont{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+}
 
 } 

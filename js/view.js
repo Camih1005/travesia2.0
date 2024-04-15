@@ -47,5 +47,19 @@ HoverImg3.src = "./img/Productos/3j.webp"
 
 //HAMBUERGUESA MAIN
 
-let 
+let hamburguer = document.getElementById("togglerLable")
+let contenidohamb = document.getElementById("mainHamburguer")
+
+hamburguer.addEventListener("click",()=>{
+contenidohamb.innerHTML = `<div id="cont2ham">
+       
+<a class="logo" href="#"><img src="./img/LogoNav.png" alt=""></a>
+<a href="#sesion2">Imagenes</a>
+<a href="#Rutaid">Ruta</a>
+<a href="#aboutid">Sobre nosotros</a>
+<a href="#ProdSlice">Productos</a>
+
+</div>`
+
+})
 
