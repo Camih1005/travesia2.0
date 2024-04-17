@@ -13,7 +13,7 @@ body{
     margin: 0;
     height: auto;
     overflow-x: hidden;
-    background-color: #be2d2d;
+    background-color: #6b6b6b;
 }
 /* NAV BAR */
 
@@ -903,5 +903,8 @@ width: 90%;
    
     
     
+}
+#background-video{
+    display: none;
 }
 } 
