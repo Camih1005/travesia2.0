@@ -667,25 +667,32 @@ h5{
 
 .bannercontainer{
     background-image: url("./img/destapado.png");  
-    background-position:center;
-    background-position-x: right;
+    background-position-x:-250px;
+    width: 100vw;
+
+    
   
   }
 
 
 .containerTitle img{ 
-    width:auto ; 
-    height: auto;
+    width: 600px; 
+    height: 300px;
+  
     z-index: 13;
-    position: absolute;
+    animation: aparecer 0.5s ease forwards, mover 3s ease-in-out infinite; 
+        animation-delay: 0s; 
 }
 
 .Rin {
-    position: absolute;
+    
     z-index: 10;
     max-width: 100%;
     left: 25%;
     bottom: 43%;
+    position: absolute;
+    animation-name: rotRin 20s infinite linear;
+    animation-delay: 0s;
 
 }
 
@@ -850,6 +857,7 @@ width: 90%;
     z-index: 30;
     
   }
+  
   
   .whatsapp-icon {
     margin-top:13px;
