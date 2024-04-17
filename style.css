@@ -13,7 +13,7 @@ body{
     margin: 0;
     height: auto;
     overflow-x: hidden;
-    background-color: #ffc800;
+    background-color: #be2d2d;
 }
 /* NAV BAR */
 
@@ -404,7 +404,7 @@ header a:hover{
 .Descripcion2{
     text-align: center;
     width: 60%;
-    color: rgb(1, 1, 1);
+    color: rgb(255, 255, 255);
     margin: 50px auto;
     
 }
@@ -428,7 +428,7 @@ header a:hover{
     height: auto;
 }
 .Aboutwe .TextAbout{
-    color: rgb(24, 24, 24);
+    color: rgb(255, 255, 255);
     position: relative;
     width: 300px;
     text-align: center;
@@ -455,10 +455,12 @@ h4{
    position: relative;
     margin: 0 auto;
     top: 200px;
+    gap: 40px;
+    color: rgb(0, 0, 0);
  
 }
 .P1,.P2,.P3{
-    width: 300px;
+    width: 400px;
     height: 600px;
     border: solid 2px rgb(255, 255, 255);
     overflow: hidden;
@@ -470,21 +472,28 @@ h4{
     justify-content: center;
     align-items: center;
     transition: all 0.3s ease;
+    background-color: #f69d3c;
+    padding: 5px;
 }
-.i:hover{
+h6{
+font-size: 14px;
+text-align: center;
+
+}
+/* .i:hover{
     scale: 1.1;
     transition: all 0.3s ease;
     box-shadow: 3px 3px 6px black;
-}
+} */
 
 
 .i img{
 width: 400px;
 position: relative;
-transition: all 3 ease;
+transition: all 3s ease;
 }
 .i img:hover{
-    transition: all 3 ease;
+    transition: all 3s ease;
 }
 h5{
     text-align: center;
@@ -655,7 +664,12 @@ h5{
     }
 } */
 
+.bannercontainer{
+    background-image: url("./img/destapado.png");  
+    background-position:center;
+    background-position-x: right;
   
+  }
 
 
 .containerTitle img{ 

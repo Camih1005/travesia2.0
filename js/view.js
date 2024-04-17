@@ -27,22 +27,22 @@ let HoverImg2 = document.getElementById("I2")
 let HoverImg3 = document.getElementById("I3")
 
 HoverImg1.addEventListener("mouseover",()=>{
-HoverImg1.setAttribute("src","./img/Productos/1.5j.webp")
+HoverImg1.setAttribute("src","./img/Productos/n2larga.png")
 })
 HoverImg1.addEventListener("mouseout",()=>{
-HoverImg1.src = "./img/Productos/1j.png"
+HoverImg1.src = "./img/Productos/n1.png"
 })
 HoverImg2.addEventListener("mouseover",()=>{
-HoverImg2.src = "./img/Productos/2.5j.webp"
+HoverImg2.src = "./img/Productos/competacon.png"
 })
 HoverImg2.addEventListener("mouseout",()=>{
-HoverImg2.src = "./img/Productos/2j.webp"
+HoverImg2.src = "./img/Productos/completaSin.png"
 })
 HoverImg3.addEventListener("mouseover",()=>{
-HoverImg3.src = "./img/Productos/3.5j.webp"
+HoverImg3.src = "./img/Productos/kitsinfondo.png"
 })
 HoverImg3.addEventListener("mouseout",()=>{
-HoverImg3.src = "./img/Productos/3j.webp"
+HoverImg3.src = "./img/Productos/kitsinfondo.png"
 })
 
 //HAMBUERGUESA MAIN
