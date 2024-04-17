@@ -374,33 +374,39 @@ header a:hover{
 }
 
 /* RUTA SESION */
-
+.ContRuta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    height: 100vh;
+}
 .RutaSection{
     width: 80%;
-    height: 80vh;
-    position: relative;
-    left: 18%;
+    height: 100%;
+    /* position: relative;
+    left: 18%; */
     display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 0;
+    
     
 }
-.MapaV iframe{
+#rutavideo{
     width: 80%;
-    height: 80vh;
-    box-shadow: -1px 0px 90px 4px rgba(149, 149, 149, 0.428);
+    margin: 0 auto;
+    padding: 0;
 }
-.MapaV{
-    position: relative;
-    top: 20%;
-margin: 0;
-width: 100%;
-}
+
+
 .Descripcion2{
     text-align: center;
     width: 60%;
     color: rgb(1, 1, 1);
-    margin: 0 auto;
-    position: relative;
-    right:10%;
+    margin: 50px auto;
+    
 }
 /* ABOUT WE */
 
@@ -840,13 +846,7 @@ width: 90%;
 .banner1{
     overflow: hidden;
 }
-.RutaSection{
-    bottom: 0;
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    
-}
+
 .Aboutwe{
     top: 0;
     flex-wrap: wrap;
@@ -877,5 +877,16 @@ width: 90%;
     height: 100vh;
     width: 100%;
 }
-
+#rutavideo{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+.RutaSection{
+    width: 100%;
+    height: 100%;
+   
+    
+    
+}
 } 
