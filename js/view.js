@@ -49,17 +49,11 @@ HoverImg3.src = "./img/Productos/kitsinfondo.png"
 
 let hamburguer = document.getElementById("togglerLable")
 let contenidohamb = document.getElementById("mainHamburguer")
+let logo = document.getElementById("logoN")
 
 hamburguer.addEventListener("click",()=>{
-contenidohamb.innerHTML = `<div id="cont2ham">
-       
-<a class="logo" href="#"><img src="./img/LogoNav.png" alt=""></a>
-<a href="#sesion2">Imagenes</a>
-<a href="#Rutaid">Ruta</a>
-<a href="#aboutid">Sobre nosotros</a>
-<a href="#ProdSlice">Productos</a>
-
-</div>`
+contenidohamb.style.display = contenidohamb.style.display === 'flex' ? 'none' : 'flex'
+logoN.style.display = logoN.style.display === 'flex' ? 'none' : 'flex'
 
 })
 
