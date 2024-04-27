@@ -668,8 +668,8 @@ h5{
 
 .bannercontainer{
     background-image: url("./img/destapado.png");  
-    background-position:center;
-    background-position-x: right;
+    background-position:center ;
+    background-position-x: -300px;
   
   }
 
