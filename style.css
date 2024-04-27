@@ -13,7 +13,7 @@ body{
     margin: 0;
     height: auto;
     overflow-x: hidden;
-    background-color: #be2d2d;
+    background-color: #f9a600f7;
 }
 /* NAV BAR */
 
@@ -668,28 +668,28 @@ h5{
 
 .bannercontainer{
     background-image: url("./img/destapado.png");  
-    background-position-x:-250px;
-    width: 100vw;
-
-    
+    background-position:center;
+    background-position-x: right;
   
   }
 
 
 .containerTitle img{ 
-    width: 600px; 
-    height: 300px;
-  
+    width:auto ; 
+    height: auto;
     z-index: 13;
     position: absolute;
+    animation-delay: 0.1s;
+   
 }
 
 .Rin {
-    
+    position: absolute;
     z-index: 10;
     max-width: 100%;
-    left: 25%;
-    bottom: 43%;
+    left: 0%;
+    bottom: 38%;
+    animation-delay: 0.1s;
 
 }
 
@@ -885,7 +885,6 @@ transition: 0.2s ease-out all;
     
   }
   
-  
   .whatsapp-icon {
     margin-top:13px;
   }
@@ -940,4 +939,19 @@ transition: 0.2s ease-out all;
     
     
 }
+#background-video{
+display: none;
+}
+
+@keyframes aparecer {
+    from {
+        width: 0; /* Ancho inicial */
+        opacity: 0; /* Opacidad inicial */
+    }
+    to {
+        width: 100%; /* Ancho final */
+        opacity: 1; /* Opacidad final */
+    }
+}
+
 } 
