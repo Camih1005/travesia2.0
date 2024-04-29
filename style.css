@@ -25,6 +25,10 @@ body{
 
 
 
+#mainHamburguer{
+    display: none;
+}
+
 header{
     position: fixed;
     width: 97.9%;

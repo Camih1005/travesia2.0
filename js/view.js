@@ -53,7 +53,7 @@ let logo = document.getElementById("logoN")
 
 hamburguer.addEventListener("click",()=>{
 contenidohamb.style.display = contenidohamb.style.display === 'flex' ? 'none' : 'flex'
-logoN.style.display = logoN.style.display === 'flex' ? 'none' : 'flex'
+logo.style.display = logo.style.display === 'flex' ? 'none' : 'flex'
 
 })
 
